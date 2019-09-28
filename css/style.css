@@ -1,0 +1,358 @@
+body {
+	margin: 0;
+  
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  vertical-align: middle;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0) 40%,rgb(240, 197, 46) 40%,rgb(240, 197, 46) 60%,rgba(255, 255, 255, 0) 60%);
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+	background-image: linear-gradient(to bottom,rgb(240, 197, 46) 40%,rgb(240, 197, 46) 40%,rgb(240, 197, 46) 60%,rgb(240, 197, 46) 60%);
+}
+.button:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.button-in-cart {
+	 background-image: linear-gradient(to bottom,rgba(238, 238, 238, 0.7) 40%,rgb(240, 197, 46) 40%,rgb(240, 197, 46) 60%,rgba(238, 238, 238, 0.7) 60%);
+}
+
+.button-compare {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 36px;
+
+	color: rgba(0, 0, 0, 0.5 );
+}
+
+.button-compare:hover,
+.button-compare:focus {
+	color: rgba(0, 0, 0, 1 );
+}
+
+.button-compare:active {
+	color: rgba(0, 0, 0, 0.2 );
+}
+
+.header-logo:hover,
+.header-logo:focus {
+	fill: rgba(0, 0, 0, 0.6);
+}
+
+.header-logo:active {
+	fill: rgba(0, 0, 0, 0.3);
+}
+
+.user-controls,
+.catalog-list {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.user-controls:hover,
+.user-controls:focus,
+.catalog-list:hover,
+.catalog-list:focus {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.catalog-list {
+	display: 
+	line-height: 36px;
+}
+
+.login,
+.user-controls-list,
+.site-navigation,
+.catalog-list,
+.user-account {
+	list-style: none;
+}
+
+.login a,
+.user-controls-list a,
+.site-navigation a,
+.catalog-list a,
+.user-account a {
+	color: rgba(0, 0, 0, 1);
+}
+
+.login a:hover,
+.login a:focus,
+.user-controls-list a:hover,
+.user-controls-list a:focus,
+.site-navigation a:hover,
+.site-navigation a:focus, 
+.catalog-list a:hover,
+.catalog-list a:focus,
+.user-account a:hover,
+.user-account a:focus {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.login a:active,
+.user-controls-list a:active,
+.site-navigation a:active, 
+.catalog-list a:active,
+.user-account a:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation a {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.catalog-list a {
+	text-transform: none;
+	letter-spacing: normal;
+}
+/*---------------------------------------------*/
+/*Временное отключение части контента*/
+.slider-popular-product,
+.services-slider,
+.popular-brends {
+	display: none;
+}
+/*---------------------------------------------*/
+.main-header {
+	background-color: #f0c52e;
+}
+
+.popular-categories-list {
+  list-style: none;
+}
+
+.popular-categories-list h3 {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.popular-categories-item p {
+	height: 160px;
+	background-color: rgba(240, 197, 46, 0.5);
+	text-align: center;
+}
+
+.popular-categories-item:hover p,
+.popular-categories-item:focus p {
+  background-color: rgba(240, 197, 46, 1);
+}
+
+.popular-categories-item:active h3,
+.popular-categories-item:active p,
+.popular-categories-item:active img {
+	opacity: 0.6;
+}
+
+.about-us h2,
+.contacts h2 {
+ font-size: 47px;
+ line-height: 48px;
+}
+
+.about-us p,
+.contacts p {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+
+	color: #000000;
+}
+
+.delivery-company-list {
+	list-style: none;
+}
+/*-----------------------------------Стилизация внутренней страницы----------------------------*/
+.breadcrumbs {
+	list-style: none;
+}
+
+.breadcrumbs a,
+.breadcrumbs-current {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.breadcrumbs a:active {
+	color: rgba(0, 0, 0, 0.1);
+}
+
+.filters p,
+.sorting p {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.filters ul,
+.sorting ul {
+  list-style: none;
+}
+
+.filter-option,
+.sorting-filter a {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 1);
+}
+
+.monopods-list {
+	list-style: none;
+}
+
+.monopod-headline h3 {
+	color: #000000;
+}
+
+.monopods-item div {
+	background-color: rgba(238, 238, 238, 0.7);
+}
+
+.monopods-item p {
+	font-weight: 300;
+	color: #464646;
+}
+
+.pagination-list {
+	list-style: none;
+}
+
+.pagination-list a {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #000000;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+.main-footer {
+	background-color: #464646;
+}
+
+.footer-logo {
+	fill: rgba(255, 198, 0, 1);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+	fill: rgba(255, 198, 0, 0.6);
+}
+
+.footer-logo:active {
+	fill: rgba(255, 198, 0, 0.3);
+} 
+
+.footer-login,
+.footer-user-controls-list,
+.footer-site-navigation,
+.footer-social {
+	list-style: none;
+}
+
+.adress,
+.phone,
+.footer-login a,
+.footer-user-controls-list a,
+.footer-social a {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-login a,
+.footer-user-controls-list a {
+	line-height: 36px;
+}
+
+.footer-site-navigation a {
+  text-transform: uppercase;
+	letter-spacing: 4px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.phone:hover,
+.phone:focus,
+.footer-login a:hover,
+.footer-login a:focus,
+.footer-user-controls-list a:hover,
+.footer-user-controls-list a:focus,
+.footer-site-navigation a:hover,
+.footer-site-navigation a:focus {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.phone:active,
+.footer-login a:active,
+.footer-user-controls-list a:active,
+.footer-site-navigation a:active {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-site-navigation,
+.footer-social {
+	text-align: center;
+}
+
+.htmlacademy-logo img:hover,
+.htmlacademy-logo img:focus {
+	opacity: 0.6;
+}
+
+.htmlacademy-logo img:active {
+	opacity: 0.3;
+}
+
+/*--------------------------------сетка----------------------------------------*/
+/*body > * {
+  background-color: rgba(170, 25, 241, 0.5);
+}
+body > * > * {
+  background-color: rgba(221, 21, 21, 0.5);
+}
+body > * > * > * {
+  background-color: rgba(110, 251, 141, 0.5);
+}
+body > * > * > * > * {
+  background-color: rgba(2, 221, 11, 0.5);
+}
+body > * > * > * > * > * {
+  background-color: rgba(1, 251, 221, 0.5);
+}
