@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Интернет магазин Device</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
   	<header class="main-header">
 
 			<section class="user-controls">
-	  		<a class="header-logo" href="">
-	  			<img src="img/logo-device.svg" width="163" height="35" alt="Логотип интернет-магазина Device">
+	  		<a class="header-logo" href="" title="Ссылка на главную страницу">
+	  			<svg xmlns="http://www.w3.org/2000/svg" width="163" height="35" viewBox="0 0 163 35">
+				    <path id="_-e-logo" d="M-.151.702v33.6h13.532a15.72 15.72 0 0 0 11.72-4.824 16.458 16.458 0 0 0 4.712-11.976 16.458 16.458 0 0 0-4.712-11.976A15.723 15.723 0 0 0 13.381.702H-.151zM7.582 26.91V8.091h5.8a8.646 8.646 0 0 1 6.5 2.568 9.407 9.407 0 0 1 2.489 6.84 9.406 9.406 0 0 1-2.489 6.84 8.642 8.642 0 0 1-6.5 2.568h-5.8zm34.8-5.952h12.082v-7.3H42.378V8.091h13.291V.702H34.645v33.6H55.91V26.91H42.378v-5.952zm36.343 13.344L89.744.702h-8.458l-7.491 24.72L66.304.702h-8.457l11.019 33.6h9.859zm14.4 0h7.733V.702h-7.733v33.6zm38.615-1.416a15.506 15.506 0 0 0 6.041-5.688l-6.67-3.84a7.482 7.482 0 0 1-3.165 3.024 9.87 9.87 0 0 1-4.664 1.1 9.595 9.595 0 0 1-7.177-2.736 9.909 9.909 0 0 1-2.682-7.248 9.909 9.909 0 0 1 2.682-7.248 9.595 9.595 0 0 1 7.177-2.736 9.897 9.897 0 0 1 4.639 1.08 7.592 7.592 0 0 1 3.19 3.048l6.67-3.84a15.873 15.873 0 0 0-6.09-5.688 17.42 17.42 0 0 0-8.409-2.088c-9.779-.272-17.797 7.691-17.591 17.472-.208 9.781 7.809 17.747 17.588 17.476a17.52 17.52 0 0 0 8.458-2.088zm17.881-11.928h12.082v-7.3h-12.085V8.091h13.29V.702h-21.023v33.6h21.265V26.91h-13.532v-5.952z" class="cls-1" data-name="-e-logo"/>
+					</svg>
 	  		</a>
 	  		<form class="search-form" action="https://echo.htmlacademy.ru" method="get">
 	  			<input class="main-header-search" type="search" name="search" placeholder="Поиск по сайту" aria-label="Поиск по сайту">
@@ -36,7 +42,29 @@
       
 	  	<nav class="main-navigation">
 	  		<ul class="site-navigation">
-	  			<li><a href="catalog.html">Каталог товаров</a></li>
+	  			<li>
+	  				<a href="catalog.html">Каталог товаров</a>
+            <ul class="catalog-list">
+							<li class="catalog-item">
+								<a href="">Виртуальная реальность</a>
+							</li>
+							<li class="catalog-item">
+								<a href="">Монопады для селфи</a>
+							</li>
+							<li class="catalog-item">
+								<a href="">Экшн-камеры</a>
+							</li>
+							<li class="catalog-item">
+								<a href="">Фитнес-браслеты</a>
+							</li>
+							<li class="catalog-item">
+								<a href="">Умные часы</a>
+							</li>
+							<li class="catalog-item">
+								<a href="">Квадрокоптеры</a>
+							</li>
+						</ul>
+	  			</li>
 	  			<li><a href="delivery.html">Доставка</a></li>
 	  			<li><a href="guarantee.html">Гарантия</a></li>
 	  			<li><a href="contacts.html">Котнакты</a></li>
@@ -100,37 +128,49 @@
 					<li class="popular-categories-item">
 						<a href="">
 							<h3>Виртуальная реальность</h3>
-							<img src="img/popular-1.svg" width="97" height="55" alt="Графическая иконка «Виртуальная реальность»">
+							<p>
+								<img src="img/popular-1.svg" width="97" height="55" alt="Графическая иконка «Виртуальная реальность»">
+							</p>
 						</a>
 					</li>
 					<li class="popular-categories-item">
 						<a href="">
 							<h3>Моноподы для селфи</h3>
-							<img src="img/popular-2.svg" width="86" height="117" alt="Графическая иконка «Моноподы для селфи»">
+							<p>
+								<img src="img/popular-2.svg" width="86" height="117" alt="Графическая иконка «Моноподы для селфи»">
+							</p>
 						</a>
 					</li>
 					<li class="popular-categories-item">
 						<a href="">
 							<h3>Экшн-камеры</h3>
-							<img src="img/popular-3.svg" width="71" height="87" alt="Графическая иконка «Экшн-камеры»">
+							<p>
+								<img src="img/popular-3.svg" width="71" height="87" alt="Графическая иконка «Экшн-камеры»">
+							</p>
 						</a>
 					</li>
 					<li class="popular-categories-item">
 						<a href="">
 							<h3>Фитнес-браслеты</h3>
-							<img src="img/popular-4.svg" width="107" height="65" alt="Графическая иконка «Фитнес-браслеты»">
+							<p>
+								<img src="img/popular-4.svg" width="107" height="65" alt="Графическая иконка «Фитнес-браслеты»">
+							</p>
 						</a>
 					</li>
 					<li class="popular-categories-item">
 						<a href="">
 							<h3>Умные часы</h3>
-							<img src="img/popular-5.svg" width="56" height="98" alt="Графическая иконка «Умные часы»">
+							<p>
+								<img src="img/popular-5.svg" width="56" height="98" alt="Графическая иконка «Умные часы»">
+							</p>
 						</a>
 					</li>
 					<li class="popular-categories-item">
 						<a href="">
 							<h3>Квадрокоптеры</h3>
-							<img src="img/popular-6.svg" width="132" height="69" alt="Графическая иконка «Квадрокоптеры»">
+							<p>
+								<img src="img/popular-6.svg" width="132" height="69" alt="Графическая иконка «Квадрокоптеры»">
+							</p>
 						</a>
 					</li>
 				</ul>
@@ -143,30 +183,30 @@
 				<div class="services-column">
 					<ul class="services-button"> 
 						<li>
-						  <button class="services-button-item services-1" type="button">Доставка</button>
+						  <button class="button services-button services-1" type="button">Доставка</button>
 						</li>
 						<li>
-						  <button class="services-button-item services-2" type="button">Гарантия</button>
+						  <button class="button services-button services-2" type="button">Гарантия</button>
 						</li> 
 						<li>
-						  <button class="services-button-item services-3" type="button">Кредит</button>
+						  <button class="button services-button services-3" type="button">Кредит</button>
 						</li>
 					</ul>
 
 					<ul class="services-description">
-						<li class="services-delivery "> 
+						<li class="services-item services-delivery "> 
 						  <h3>Доставка</h3>
 						  <p class="description">
 						  	Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!
 						  </p>
 						</li>
-						<li class="services-guarantee">
+						<li class="services-item services-guarantee">
 						  <h3>Гарантия</h3>
 						  <p class="description">
 						  	Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.
 						  </p>
 						</li>
-						<li class="services-credit">
+						<li class="services-item services-credit">
 						  <h3>Кредит</h3>
 						  <p class="description">
 						  	Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.
@@ -200,7 +240,7 @@
   			<p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
   			<p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
   			<ul class="delivery-company-list">
-					<li>Деловые линии</li>
+					<li>Деловые Линии</li>
 					<li>Автотрейдинг</li>
 					<li>ЖелДорЭкспедиция</li>
 				</ul>
@@ -217,15 +257,17 @@
 
   	<footer class="main-footer">
   		<a class="footer-logo" href="#">
-				<img src="img/logo-device.svg" width="163" height="35" alt="Логотип интернет-магазина Device">
+  			<svg xmlns="http://www.w3.org/2000/svg" width="163" height="35" viewBox="0 0 163 35">
+            <path id="_-e-logo" d="M-.151.702v33.6h13.532a15.72 15.72 0 0 0 11.72-4.824 16.458 16.458 0 0 0 4.712-11.976 16.458 16.458 0 0 0-4.712-11.976A15.723 15.723 0 0 0 13.381.702H-.151zM7.582 26.91V8.091h5.8a8.646 8.646 0 0 1 6.5 2.568 9.407 9.407 0 0 1 2.489 6.84 9.406 9.406 0 0 1-2.489 6.84 8.642 8.642 0 0 1-6.5 2.568h-5.8zm34.8-5.952h12.082v-7.3H42.378V8.091h13.291V.702H34.645v33.6H55.91V26.91H42.378v-5.952zm36.343 13.344L89.744.702h-8.458l-7.491 24.72L66.304.702h-8.457l11.019 33.6h9.859zm14.4 0h7.733V.702h-7.733v33.6zm38.615-1.416a15.506 15.506 0 0 0 6.041-5.688l-6.67-3.84a7.482 7.482 0 0 1-3.165 3.024 9.87 9.87 0 0 1-4.664 1.1 9.595 9.595 0 0 1-7.177-2.736 9.909 9.909 0 0 1-2.682-7.248 9.909 9.909 0 0 1 2.682-7.248 9.595 9.595 0 0 1 7.177-2.736 9.897 9.897 0 0 1 4.639 1.08 7.592 7.592 0 0 1 3.19 3.048l6.67-3.84a15.873 15.873 0 0 0-6.09-5.688 17.42 17.42 0 0 0-8.409-2.088c-9.779-.272-17.797 7.691-17.591 17.472-.208 9.781 7.809 17.747 17.588 17.476a17.52 17.52 0 0 0 8.458-2.088zm17.881-11.928h12.082v-7.3h-12.085V8.091h13.29V.702h-21.023v33.6h21.265V26.91h-13.532v-5.952z" class="cls-1" data-name="-e-logo"/>
+          </svg>
 			</a>
 			<p class="adress">г. Москва, ул. Строителей, 15</p>
-			<p class="phone">+7 (812) 555-05-55</p>
+			<a href="tel:+78125550555" class="phone">+7 (812) 555-05-55</a>
 
 			<section class="footer-navigation">
 				<ul class="footer-login">
 	  			<li>
-	  				<button type="button">Войти</button>
+	  				<a class="login-link" href="login-link.html">Войти</a>
 	  			</li>
 	  		</ul>
 
@@ -267,34 +309,10 @@
         </li>
       </ul>
 
-      <a class="htmlacademy-logo" href="">
+      <a class="htmlacademy-logo" href="https://htmlacademy.ru/intensive/htmlcss">
   			<img src="img/logo-html.svg" width="27" height="35" alt="Ссылка на профессиональный курс от HTML Academy">
   		</a>	
   	</footer>
-
-  	<!--попапы (всплывающие окна)-->
-  	<section class="modal catalog-navigation">
-	  	<ul class="catalog-navigation-list">
-				<li class="catalog-navigation-item">
-					<a href="">Виртуальная реальность</a>
-				</li>
-				<li class="catalog-navigation-item">
-					<a href="">Монопады для селфи</a>
-				</li>
-				<li class="catalog-navigation-item">
-					<a href="">Экшн-камеры</a>
-				</li>
-				<li class="catalog-navigation-item">
-					<a href="">Фитнес-браслеты</a>
-				</li>
-				<li class="catalog-navigation-item">
-					<a href="">Умные часы</a>
-				</li>
-				<li class="catalog-navigation-item">
-					<a href="">Квадрокоптеры</a>
-				</li>
-			</ul>
-		</section>
 
 		<section class="write-us">
 			<h3 class="visually-hidden">Напишите нам</h3>
@@ -313,13 +331,13 @@
 				</p>
 				<button class="button" type="submit">Отправить</button>
 			</form>
-			<button class="modal-close" type="button" title="закрыть"></button>
+			<button class="modal-close" type="button" title="закрыть">Закрыть</button>
 		</section>
 
 		<section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
       <img src="img/big-map.png" width="960" height="559" alt="Офис компании по 	адресу г.Москва, ул.Строителей 15">
-      <button class="modal-close" type="button" title="Закрыть" aria-label="Закрыть"></button>
+      <button class="modal-close" type="button" title="Закрыть" aria-label="Закрыть">Закрыть</button>
     </section>    
   </body>
 </html>
