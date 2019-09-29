@@ -1,3 +1,32 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/gilroy-300/gilroy-300-normal.woff2') format('woff2'),
+		 url('../fonts/gilroy/gilroy-300/gilroy-300-normal.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/gilroy/gilroy-800/gilroy-800-normal.woff2') format('woff2'),
+		 url('../fonts/gilroy/gilroy-800/gilroy-800-normal.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensans-300/opensans-300-normal.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-300/opensans-300-normal.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/opensans-400/opensans-400-normal.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-400/opensans-400-normal.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
 	margin: 0;
   
@@ -49,6 +78,7 @@ img {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 36px;
+	font-weight: 300;
 
 	color: rgba(0, 0, 0, 0.5 );
 }
@@ -80,15 +110,12 @@ img {
 	fill: rgba(0, 0, 0, 0.3);
 }
 
-.search-form {
-	display: block;
-}
-
 .user-controls,
 .catalog-list {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
+	font-weight: 300;
 }
 
 .user-controls:hover,
@@ -168,6 +195,7 @@ img {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
+	font-weight: 300;
 
 	color: #000000;
 }
@@ -176,6 +204,7 @@ img {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 20px;
+	font-weight: 300;
 
 	color: #000000;
 }
@@ -258,6 +287,7 @@ opacity: 1;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
+	font-weight: 300;
 
 	color: #000000;
 }
@@ -275,6 +305,8 @@ opacity: 1;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
+	font-weight: 300;
+
 	color: rgba(0, 0, 0, 0.3);
 }
 
@@ -297,11 +329,35 @@ opacity: 1;
   list-style: none;
 }
 
-.filter-option,
-.sorting-filter a {
+.filter-option {
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 40px;
+	font-weight: 300;
+
+	color: rgba(0, 0, 0, 1);
+}
+
+.sorting-filter a {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+
+	color: rgba(0, 0, 0, 0.3);	
+}
+
+.sorting-filter:hover a,
+.sorting-filter:focus a {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.sorting-filter:active a {
+	color: rgba(0, 0, 0, 1);
+}
+
+.sorting a.disabled {      /*стили индикатора активнсти*/
+	pointer-events: none;
 	color: rgba(0, 0, 0, 1);
 }
 
@@ -399,6 +455,7 @@ opacity: 1;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
+	font-weight: 300;
 
   color: rgba(255, 255, 255, 1);
 }
