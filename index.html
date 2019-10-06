@@ -18,20 +18,22 @@
 		  		</a>
 		  		<div class="user-controls">
 			  		<form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-			  			<input class="main-header-search" type="search" name="search" placeholder="Поиск по сайту" aria-label="Поиск по сайту">
+			  			<input class="main-header-search" type="search" name="search" placeholder="Поиск по сайту" aria-label="Поиск по сайту"><button class="search-button" type="submit">
+			  			Найти
+			  		</button>
 			  		</form>
 			  		<ul class="login">
-			  			<li>
+			  			<li class="login-item">
 			  				<a class="login-link" href="login-link.html">Войти</a>
 			  			</li>
 			  		</ul>
 			  		<ul class="user-controls-list">
-			  			<li>
+			  			<li class="user-control-item">
 			  				<a class="control-compare" href="compare.html">
 			  					Сравнить
 			  				</a>
 			  			</li>
-			  			<li>
+			  			<li class="user-control-item">
 			  				<a class="control-cart" href="cart.html">
 			  					Корзина
 			  				</a>
@@ -44,7 +46,7 @@
 		  		<ul class="site-navigation">
 		  			<li>
 		  				<a href="catalog.html">Каталог товаров</a>
-	            <ul class="catalog-list">
+	            <!--<ul class="catalog-list">
 								<li class="catalog-item">
 									<a href="">Виртуальная реальность</a>
 								</li>
@@ -63,11 +65,11 @@
 								<li class="catalog-item">
 									<a href="">Квадрокоптеры</a>
 								</li>
-							</ul>
+							</ul>-->
 		  			</li>
 		  			<li><a href="delivery.html">Доставка</a></li>
 		  			<li><a href="guarantee.html">Гарантия</a></li>
-		  			<li><a href="contacts.html">Котнакты</a></li>
+		  			<li><a href="contacts.html">Контакты</a></li>
 		  		</ul>
 		  	</nav>
 		  </div>
@@ -79,56 +81,62 @@
 				<h2 class="visually-hidden">Слайдер популярных товаров</h2>
 				<ul class="slider-list">
 				  <li class="slider-item slide-1">
-				  	<p class="slide-number">01</p>
-						<p class="slide-name">Делай селфи, как Бен Стиллер!</p>
-						<p class="slide-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-						<img src="img/slide-1.png" width="384" height="486" alt="Изображение селфи палки">
-						<dl class="options">
-							<div class="options-column">
-								<dt>Длина палки</dt>
-								<dd>8,5 м</dd>
-							</div>
-							<div class="options-column">
-								<dt>Вес палки</dt>
-								<dd>5 кг</dd>
-							</div>
-              <div class="options-column">
-								<dt>Материал</dt>
-								<dd>Карбон</dd>
-							</div>
-						</dl>
-						<a class="button" href="">Подробнее</a>
+				  	<img src="img/slide-1.png" width="384" height="486" alt="Изображение селфи палки">
+				  	<div class="slide-wrapper">
+					  	<p class="slide-number">01</p>
+							<p class="slide-name">Делай селфи,<br> как Бен Стиллер!</p>
+							<p class="slide-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+							<dl class="options">
+								<div class="options-column">
+									<dt>Длина палки</dt>
+									<dd>8,5 м</dd>
+								</div>
+								<div class="options-column">
+									<dt>Вес палки</dt>
+									<dd>5 кг</dd>
+								</div>
+	              <div class="options-column">
+									<dt>Материал</dt>
+									<dd>Карбон</dd>
+								</div>
+							</dl>
+							<a class="button slide-button" href="">Подробнее</a>
+						</div>
 				  </li>
-				  <!--<li class="slider-item slide-2 block">
-				  	<p class="slide-number">02</p>
-						<p class="slide-name">Худеем правильно!</p>
-						<p class="slide-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-						<img src="img/slide-2.png" width="345" height="485" alt="Изображение фитнес-браслета">
-						<dl class="options">
-							<div class="options-column">
-								<dt>Без подзарядки</dt>
-								<dd>48 часов</dd>
-							</div>
-						</dl>
-						<a class="button" href="">Подробнее</a>
+				  <!-- <li class="slider-item slide-2">
+				  	<img src="img/slide-2.png" width="345" height="485" alt="Изображение фитнес-браслета">
+				  	<div class="slide-wrapper">
+					  	<p class="slide-number">02</p>
+							<p class="slide-name">Худеем<br> правильно!</p>
+							<p class="slide-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+							<dl class="options">
+								<div class="options-column">
+									<dt>Без подзарядки</dt>
+									<dd>48 часов</dd>
+								</div>
+							</dl>
+							<a class="button" href="">Подробнее</a>
+						</div>
 				  </li>
-				  <li class="slider-item slide-3 block">
-				  	<p class="slide-number">03</p>
-						<p class="slide-name">Порхает как бабочка, жалит как пчела!</p>
-						<p class="slide-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-						<img src="img/slide-3.png" width="526" height="334" alt="Изображение квадрокоптера">
-						<dl class="options">
-							<div class="options-column">
-								<dt>Дальность полета</dt>
-								<dd>800 м</dd>
-							</div>
-							<div class="options-column">
-								<dt>Радиус поражения</dt>
-								<dd>50 м</dd>
-							</div>
-						</dl>
-						<a class="button" href="">Подробнее</a>
-				  </li>-->
+				  <li class="slider-item slide-3">
+				  	<img src="img/slide-3.png" width="526" height="334" alt="Изображение квадрокоптера">
+				  	<div class="slide-wrapper">
+					  	<p class="slide-number">03</p>
+							<p class="slide-name">Порхает как бабочка, жалит как пчела!</p>
+							<p class="slide-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+							<dl class="options">
+								<div class="options-column">
+									<dt>Дальность полета</dt>
+									<dd>800 м</dd>
+								</div>
+								<div class="options-column">
+									<dt>Радиус поражения</dt>
+									<dd>50 м</dd>
+								</div>
+							</dl>
+							<a class="button" href="">Подробнее</a>
+						</div>
+				  </li> -->
 				</ul>
 			</section>
 
@@ -145,7 +153,7 @@
 					</li>
 					<li class="popular-categories-item">
 						<a href="catalog.html">
-							<h3>Моноподы для селфи</h3>
+							<h3>Моноподы<br> для селфи</h3>
 							<p>
 								<img src="img/popular-2.svg" width="86" height="117" alt="Графическая иконка «Моноподы для селфи»">
 							</p>
@@ -194,7 +202,7 @@
 					<div class="services-column">
 						<ul class="button-list"> 
 							<li>
-							  <button class="button services-button services-1" type="button">Доставка</button>
+							  <button class="button services-button services-1 active" type="button">Доставка</button>
 							</li>
 							<li>
 							  <button class="button services-button services-2" type="button">Гарантия</button>
@@ -205,24 +213,24 @@
 						</ul>
 
 						<ul class="services-description">
-							<li class="services-item services-delivery"> 
+							<!-- <li class="services-item services-delivery"> 
 							  <h3>Доставка</h3>
 							  <p class="description">
-							  	Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.
+							  	Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.
 							  </p>
-							</li>
-							<!--<li class="services-item services-guarantee">
+							</li> -->
+							<li class="services-item services-guarantee">
 							  <h3>Гарантия</h3>
 							  <p class="description">
-							  	Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.
+							  	Если из-за возгорания купленного у нас товара у вас сгорит<br> дом — не переживайте, мы выдадим вам новый.<br> Товар, не дом, конечно же.
 							  </p>
 							</li>
-							<li class="services-item services-credit">
+							<!-- <li class="services-item services-credit">
 							  <h3>Кредит</h3>
 							  <p class="description">
 							  	Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.
 							  </p>
-						  </li>-->
+						  </li> -->
 						</ul>
 					</div>
 				</div>	
