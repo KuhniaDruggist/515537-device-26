@@ -51,7 +51,7 @@ img {
 
 .visually-hidden:not(:focus):not(active),
 input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {  /*прячем элементы*/
+input[type="radio"].visually-hidden {  
   position: absolute;
 
   width: 1px;
@@ -521,7 +521,7 @@ input[type="radio"].visually-hidden {  /*прячем элементы*/
 	margin: 0;
 }
 
-.site-navigation li:hover .catalog-list,   /*выпадающее меню catalog-list*/
+.site-navigation li:hover .catalog-list,   
 .site-navigation li:focus .catalog-list,
 .site-navigation li:active .catalog-list {
   display: flex;
@@ -1074,7 +1074,7 @@ input[type="radio"].visually-hidden {  /*прячем элементы*/
   
 	padding: 8px 40px;
 }
-/*-----------------------------------Стилизация внутренней страницы---------------------------*/
+
 .user-account { 
 	display: flex;
 	flex-wrap: wrap;
@@ -1568,7 +1568,7 @@ input[type="radio"].visually-hidden {  /*прячем элементы*/
 	color: rgba(0, 0, 0, 1);
 }
 
-.sorting a.disabled {      /*----стили индикатора активнсти----*/
+.sorting a.disabled {     
 	color: rgba(0, 0, 0, 1);
 
 	pointer-events: none;
@@ -1576,7 +1576,7 @@ input[type="radio"].visually-hidden {  /*прячем элементы*/
 
 .sorting span .disabled {
 	opacity: 1;           
-}                          /*-----------------------------------*/
+}                          
 
 .catalog-monopods {
 	width: 1000%;
@@ -1793,7 +1793,6 @@ input[type="radio"].visually-hidden {  /*прячем элементы*/
 	color: rgba(0, 0, 0, 0.3);
 }
 
-/*---------------------------------------------------------------------------------------------*/
 .main-footer {
 	margin-top: 82px;
 	background-color: #464646;
@@ -1929,7 +1928,7 @@ input[type="radio"].visually-hidden {  /*прячем элементы*/
 	align-self: flex-end;
 	order: -1;
 
-	width: 461px;
+	width: 470px;
 	margin: 0 auto 0 158px;
   padding: 0;
 
@@ -2083,9 +2082,9 @@ input[type="radio"].visually-hidden {  /*прячем элементы*/
 }
 
 .htmlacademy-logo img:active {
-	opacity: 0.3;*/
+	opacity: 0.3;
 }
-/*------------------------------попапы-----------------------------------------*/
+
 @keyframes bounce {
   0% {
     transform: translateY(-2000px);
