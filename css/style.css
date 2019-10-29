@@ -502,6 +502,7 @@ input[type="radio"].visually-hidden {
 .catalog-list a {
 	display: inline-block;
 	
+	vertical-align: middle;
 	text-transform: none;
 	letter-spacing: normal;
 	color: rgba(0, 0, 0, 1);
@@ -1272,7 +1273,7 @@ input[type="radio"].visually-hidden {
 
 .range-price-wrapper {
 	width: 200px;
-	padding: 10px 0 28px 0;
+	padding: 10px 0 33px 0;
 	
 	border-top: 2px solid #000000;
 	border-bottom: 2px solid #000000;
@@ -1333,8 +1334,9 @@ input[type="radio"].visually-hidden {
 .price-controls label {
 	display: inline-block;
 	
+	vertical-align: middle;
 	width: 45%;
-
+  
 	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
@@ -2211,6 +2213,11 @@ input[type="radio"].visually-hidden {
   outline-color: #f0c52e;
   background-color: #ffffff;
   color: rgba(70, 70, 70, 1);
+}
+
+.write-us input:invalid,
+.write-us textarea:invalid {
+	background-color: rgba(237, 181, 181, 0.5);
 }
 
 .write-us .button {
