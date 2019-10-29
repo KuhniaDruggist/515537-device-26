@@ -856,6 +856,14 @@ input[type="radio"].visually-hidden {
 	cursor: pointer;
 }
 
+.services-button:active {
+	z-index: auto;
+	padding-right: 260px;
+	
+	background-color: #000000;
+	color: #f7e184;
+}
+
 .button-list .service-active {
 	z-index: auto;
 
