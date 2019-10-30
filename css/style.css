@@ -972,14 +972,80 @@ input[type="radio"].visually-hidden {
 	list-style: none;
 }
 
-.popular-brend-item img {
-  filter: grayscale(1);
-  opacity: 0.2;
-	}
+.popular-brend-item {
+	position: relative;
+}
 
-.popular-brend-item:hover img {
-	filter: grayscale(0);
+.brend-link img {
+	opacity: 0;
+}
+
+.dji-link::before {
+	content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 260px;
+  height: 100px;
+
+  background-image: url("../img/dji-gray.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.sp-gadgets-link::before {
+	content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 260px;
+  height: 100px;
+
+  background-image: url("../img/sp-gadgets-gray.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.go-pro-link::before {
+	content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 260px;
+  height: 100px;
+
+  background-image: url("../img/go-pro-gray.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.vive-link::before {
+	content: "";
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 260px;
+  height: 100px;
+
+  background-image: url("../img/vive-gray.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.popular-brend-item:hover .brend-link img {
 	opacity: 1;
+}
+
+.popular-brend-item:hover .brend-link::before {
+	opacity: 0;
 }
 
 .about-us-wrapper {
